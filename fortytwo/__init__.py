@@ -2,7 +2,6 @@ import venusian
 from wired import ServiceRegistry
 
 from fortytwo import models
-# noinspection PyUnresolvedReferences
 from fortytwo.models import Greeter
 
 

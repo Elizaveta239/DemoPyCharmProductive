@@ -1,3 +1,14 @@
+"""
+
+Visual Debugger
+
+- Put Breakpoint
+- Put breakpoint with condition inside loop
+- Interactive Debug Console
+- Evaluate Expression action
+
+"""
+
 from time import sleep
 
 my_name = "Earth"
