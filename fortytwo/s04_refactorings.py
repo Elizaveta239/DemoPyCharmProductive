@@ -8,7 +8,6 @@ project.
 - ``Greeter`` is used in many places, but we want to change to
   ``Welcomer``
 - Navigate to Symbol with Cmd-B
-- Create New file (Ctrl Alt N) with class Greeter
 - Ctrl-T | Rename -> ``Welcomer``
 - Left-bracket back to code
 - **** UNDO **** puts ``Greeter`` back everywhere
