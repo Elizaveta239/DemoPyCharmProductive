@@ -9,6 +9,7 @@ Show parameters Cmd P
 """
 
 import numpy as np
+import pandas as pd
 from sklearn.tree import DecisionTreeRegressor
 
 
@@ -31,6 +32,8 @@ def train_model(feat, targs):
     predictions = dtr.predict(feat)
     return predictions
 
+
+oscar_df = pd.read_csv("../data/the_oscar_award.csv")
 
 loaded_data = np.load('../data/sdss_galaxy_colors.npy')
 features, targets = get_features_targets(loaded_data)
