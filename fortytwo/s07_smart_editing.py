@@ -3,9 +3,10 @@
 - Start New Line (Shift-Enter Win/Linux/macOS)
 - Use keyboard to make/extend selection (Alt Up)
 
-- Add field to a class
-- Declare type (typing in Python!)
-- Introduce local variable (Alt Cmd V)
+- Add field to a class (add parameter `name` -> Alt + Enter -> Add field to class)
+- Declare type `name: str` (typing in Python!)
+- Introduce local variable `customer` (Alt Cmd V)
+- Change `name = DEFAULT_NAME` to `name = customer.get_name()`
 - Type Info (Ctrl Shift P)
 - Automatic type checking (Try to add `name + 23`)
 
@@ -26,11 +27,11 @@ class Customer:
 
 
 def main():
-    customer = Customer()
+    # Customer()
     name = DEFAULT_NAME
     if name != DEFAULT_NAME:
         return name
-    return name
+    return DEFAULT_NAME
 
 
 if __name__ == '__main__':
