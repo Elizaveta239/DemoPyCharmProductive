@@ -25,18 +25,22 @@ def greet_neighbors(neighbors):
     return len(neighbors)
 
 
+def get_current_neighbors(num, planets, i):
+    my_neighbors = []
+    if i != 0:
+        my_neighbors.append(planets[i - 1])
+    if i != num - 1:
+        my_neighbors.append(planets[i + 1])
+    return my_neighbors
+
+
 def greet_planets(planets):
     num = len(planets)
     for i in range(num):
         planet_name = planets[i]
         print(f"Hi I'm {planet_name}!")
-        my_neighbors = []
-        if i != 0:
-            my_neighbors.append(planets[i - 1])
-        if i != num - 1:
-            my_neighbors.append(planets[i + 1])
-
-        greet_neighbors(my_neighbors)
+        l = greet_neighbors(get_current_neighbors(num, planets, i))
+        print(f"We have {l} neighbors")
         sleep(1)
 
 
