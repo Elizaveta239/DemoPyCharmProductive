@@ -9,7 +9,7 @@ Navigate to File (Shift-Ctrl-N Win/Linux, Shift-Cmd-O macOS)
 - Look for ``poolm`` to look in dependencies
 
 Navigate to Symbol (Shift-Ctrl-Alt-N Win/Linux, Alt-Cmd-O macOS)
-- fortytwo.models
+- `greet` - shows functions, classes, files
 - Also goes into dependencies, e.g. `SerReg` for `wired.ServiceRegistry`
 
 Go To Definition

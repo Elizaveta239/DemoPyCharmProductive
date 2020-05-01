@@ -5,7 +5,6 @@ Generate Imports While Typing
 Avoid interruption by letting PyCharm generate your imports as you type.
 - We want a random customer
 - Delete 'Larry'
-- Type ``choic`` and ``Ctrl-Enter-Enter``
 - Or, type ``choice`` and ``Alt-Enter``
 
 Repo: https://github.com/pauleveritt/42-workshop
