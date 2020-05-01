@@ -27,7 +27,7 @@ def test_03():
 
 
 def test_04():
-    from fortytwo.s04_refactorings import main
+    from fortytwo.s05_refactorings import main
     assert EXPECTED == main()
 
 
