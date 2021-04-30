@@ -7,6 +7,10 @@ Enable Scientific Mode
 - Inspect scientific arrays (numpy arrays, pandas DataFrames, pandas Series) in Data Viewer
 - Inspect plots under 'Plots' tab
 
+
+New product: JetBrains DataSpell
+https://www.jetbrains.com/dataspell/
+
 """
 
 #%%
