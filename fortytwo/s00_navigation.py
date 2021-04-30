@@ -1,5 +1,8 @@
 """
 
+Navigation window
+- Search everywhere (Shift Shift)
+
 Simple navigation
 - Find Action (Cmd Shift A)
 

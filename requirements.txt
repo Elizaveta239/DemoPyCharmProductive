@@ -1,9 +1,7 @@
-jupyter== 1.0.0
-matplotlib==3.2.1
-numpy==1.18.3
-pandas==1.0.3
-pyglet==1.5.4
-pytest==5.4.1
-scikit-learn==0.22.1
-venusian==2.1.0
-wired==0.2.1
+matplotlib~=3.4.1
+numpy~=1.20.2
+scikit-learn~=0.24.2
+pandas~=1.2.4
+wired~=0.3
+venusian~=3.0.0
+pyglet~=1.5.16

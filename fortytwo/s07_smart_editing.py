@@ -1,7 +1,7 @@
 """
 
 - Start New Line (Shift-Enter Win/Linux/macOS)
-- Use keyboard to make/extend selection (Alt Up)
+- Use keyboard to make/extend selection (Ctrl W / Alt Up)
 
 - Add field to a class (add parameter `name` -> Alt + Enter -> Add field to class)
 - Declare type `name: str` (typing in Python!)

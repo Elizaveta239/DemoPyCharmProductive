@@ -7,7 +7,6 @@ Work even if there is no VCS configured
 
 """
 
-
 from fortytwo import App, Greeter
 
 

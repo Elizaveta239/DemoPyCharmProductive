@@ -2,8 +2,9 @@
 
 View Parameter Info
 
-Quickly see function arguments and argument types. (F1)
+Quickly see function arguments and argument types. (Ctrl + Q)
 - ``choices`` is weird, what does it want?
+- Only parameters without documentation (Ctrl + P)
 
 Repo: https://github.com/pauleveritt/42-workshop
 Playlist: https://www.jetbrains.com/pycharm/guide/playlists/42/
