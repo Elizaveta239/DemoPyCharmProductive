@@ -5,3 +5,4 @@ pandas~=1.2.4
 wired~=0.3
 venusian~=3.0.0
 pyglet~=1.5.16
+coverage~=5.5
