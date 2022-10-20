@@ -44,4 +44,5 @@ def greet_planets(planets):
         sleep(1)
 
 
-greet_planets(planets_list)
+if __name__ == "__main__":
+    greet_planets(planets_list)
