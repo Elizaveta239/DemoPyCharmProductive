@@ -1,8 +1,8 @@
-matplotlib~=3.4.1
-numpy~=1.20.2
-scikit-learn~=0.24.2
-pandas~=1.2.4
+matplotlib~=3.6.1
+numpy~=1.23.4
+scikit-learn~=1.1.2
+pandas~=1.5.1
 wired~=0.3
 venusian~=3.0.0
-pyglet~=1.5.16
-coverage~=5.5
+pyglet~=1.5.27
+coverage~=6.5.0
